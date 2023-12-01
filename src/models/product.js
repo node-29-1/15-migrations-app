@@ -19,10 +19,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
-    isAvailable: DataTypes.BOOLEAN,
+    is_available: DataTypes.BOOLEAN,
     brand: {
       type: DataTypes.STRING,
     }
